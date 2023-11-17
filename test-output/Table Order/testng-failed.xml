@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Table Order]">
+  <test thread-count="5" name="Test Case one(failed)">
+    <classes>
+      <class name="com.Ubsidi.MakeTableOrder.TableOrder">
+        <methods>
+          <include name="repeatTests"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Ubsidi.MakeTableOrder.TableOrder -->
+    </classes>
+  </test> <!-- Test Case one(failed) -->
+  <test thread-count="5" name="Test Case Two(failed)">
+    <classes>
+      <class name="com.Ubsidi.MakeTableOrder.AllOrderFirstPayLater">
+        <methods>
+          <include name="repeatAgain"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="repeatTestsForPayment"/>
+        </methods>
+      </class> <!-- com.Ubsidi.MakeTableOrder.AllOrderFirstPayLater -->
+    </classes>
+  </test> <!-- Test Case Two(failed) -->
+</suite> <!-- Failed suite [Table Order] -->

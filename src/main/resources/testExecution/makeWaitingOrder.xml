@@ -1,0 +1,8 @@
+<suite name= "Waiting Order">
+<test name ="Test Case 1">
+<classes>
+<class name="com.Ubsidi.MakeWaitingOrder.WaitingOrder"></class>
+</classes>
+</test>
+
+</suite>

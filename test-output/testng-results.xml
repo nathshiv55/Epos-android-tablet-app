@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T16:13:13 IST" name="Default suite" finished-at="2023-10-19T16:22:07 IST" duration-ms="534012">
+    <groups>
+      <group name="group1">
+        <method signature="PaymentByClickOnPayOrder.startScreenRecordings1()[pri:1, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" name="startScreenRecordings1" class="com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder"/>
+        <method signature="PaymentByClickOnPayOrder.repeatTests()[pri:2, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" name="repeatTests" class="com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder"/>
+        <method signature="PaymentByClickOnPayOrder.stopScreenRecording1()[pri:3, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" name="stopScreenRecording1" class="com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2023-10-19T16:13:13 IST" name="Default test" finished-at="2023-10-19T16:22:07 IST" duration-ms="534012">
+      <class name="com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" started-at="2023-10-19T16:13:13 IST" name="setUp" finished-at="2023-10-19T16:13:31 IST" duration-ms="17823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startScreenRecordings1()[pri:1, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" started-at="2023-10-19T16:13:31 IST" name="startScreenRecordings1" finished-at="2023-10-19T16:13:32 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startScreenRecordings1 -->
+        <test-method signature="repeatTests()[pri:2, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" started-at="2023-10-19T16:13:32 IST" name="repeatTests" finished-at="2023-10-19T16:22:07 IST" duration-ms="515091" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Cached elements 'By.id: com.ubsidi:id/cvAction' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7446e88d-2da2-4e75-a0f7-d91d9c16440e, clickElement {id=00000000-0000-0156-ffff-ffff0000598b}]
+Capabilities {appium:appActivity: com.ubsidi.epos_2021.activi..., appium:appPackage: com.ubsidi, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.ubsidi.epos_2021.activi..., appPackage: com.ubsidi, automationName: uiautomator2, deviceName: Galaxy Tab A7 Lite, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 13, udid: 192.168.1.43:5555}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T220, appium:deviceName: 192.168.1.43:5555, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 1340x800, appium:deviceUDID: 192.168.1.43:5555, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 13, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 192.168.1.43:5555, appium:viewportRect: {height: 704, left: 0, top: 32, width: 1340}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (7446e88d-2da2-4e75-a0f7-d91d9c16440e)] -> id: com.ubsidi:id/cvAction]
+Session ID: 7446e88d-2da2-4e75-a0f7-d91d9c16440e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.id: com.ubsidi:id/cvAction' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7446e88d-2da2-4e75-a0f7-d91d9c16440e, clickElement {id=00000000-0000-0156-ffff-ffff0000598b}]
+Capabilities {appium:appActivity: com.ubsidi.epos_2021.activi..., appium:appPackage: com.ubsidi, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.ubsidi.epos_2021.activi..., appPackage: com.ubsidi, automationName: uiautomator2, deviceName: Galaxy Tab A7 Lite, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 13, udid: 192.168.1.43:5555}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-T220, appium:deviceName: 192.168.1.43:5555, appium:deviceScreenDensity: 213, appium:deviceScreenSize: 1340x800, appium:deviceUDID: 192.168.1.43:5555, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.3312501, appium:platformVersion: 13, appium:statBarHeight: 32, appium:takesScreenshot: true, appium:udid: 192.168.1.43:5555, appium:viewportRect: {height: 704, left: 0, top: 32, width: 1340}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (7446e88d-2da2-4e75-a0f7-d91d9c16440e)] -> id: com.ubsidi:id/cvAction]
+Session ID: 7446e88d-2da2-4e75-a0f7-d91d9c16440e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.Ubsidi.Utility.NewMyLibrary.paymentByClickOnPayOrderfromOrderHistory(NewMyLibrary.java:1753)
+at com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder.repeatTests(PaymentByClickOnPayOrder.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repeatTests -->
+        <test-method signature="stopScreenRecording1()[pri:3, instance:com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder@1536602f]" started-at="2023-10-19T16:22:07 IST" name="stopScreenRecording1" finished-at="2023-10-19T16:22:07 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopScreenRecording1 -->
+      </class> <!-- com.Ubsidi.MakeWaitingOrder.PaymentByClickOnPayOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

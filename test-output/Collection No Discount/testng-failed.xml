@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Collection No Discount]">
+  <listeners>
+    <listener class-name="com.Ubsidi.Listeners.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test Case 1(failed)">
+    <classes>
+      <class name="com.Ubsidi.MakeCollectionOrder.CollectionNoPrint">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="reportsEnd"/>
+          <include name="reportsStart"/>
+          <include name="repeatTests"/>
+        </methods>
+      </class> <!-- com.Ubsidi.MakeCollectionOrder.CollectionNoPrint -->
+    </classes>
+  </test> <!-- Test Case 1(failed) -->
+</suite> <!-- Failed suite [Collection No Discount] -->

@@ -1,0 +1,13 @@
+<suite name= "Collection No Discount">
+    
+<listeners>       
+ <listener class-name = "com.Ubsidi.Listeners.TestNGListeners"></listener>
+</listeners>
+
+<test name ="Test Case 1">
+<classes>
+<class name="com.Ubsidi.MakeCollectionOrder.CollectionNoPrint"></class>
+</classes>
+</test>
+
+</suite>

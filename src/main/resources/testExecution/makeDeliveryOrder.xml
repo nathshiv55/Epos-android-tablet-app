@@ -1,0 +1,9 @@
+<suite name= "Make Order">
+    
+<test name ="Test Case 1">
+<classes>
+<class name="com.Ubsidi.MakeDeliveryOrder.DeliveryOrder"></class>
+</classes>
+</test>
+
+</suite>

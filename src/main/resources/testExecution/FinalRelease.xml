@@ -1,0 +1,8 @@
+<suite name="ubsidi_Epos_Android_App">          //project ka name
+<suite-files>
+<suite-file path="./src/main/resources/testExecution/makeTableOrder.xml"/>                  
+<suite-file path="./src/main/resources/testExecution/makeWaitingOrder.xml"/> 
+<suite-file path="./src/main/resources/testExecution/makeCollectionOrder.xml"/>  
+
+</suite-files>
+</suite> 

@@ -1,0 +1,15 @@
+<suite name= "Table Order">
+    
+<test name ="Test Case one">
+<classes>
+<class name="com.Ubsidi.MakeTableOrder.TableOrder"></class>
+</classes>
+</test>
+
+<test name ="Test Case Two">
+<classes>
+<class name="com.Ubsidi.MakeTableOrder.AllOrderFirstPayLater"></class>
+</classes>
+</test>
+
+</suite>
